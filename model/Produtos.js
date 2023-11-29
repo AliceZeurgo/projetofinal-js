@@ -2,7 +2,7 @@ var Produtos =
 {
     Pizzaria: "Tony Pizzaria",
 
-     Salgadas: [
+        Salgadas: [
     
           {  
             Id: "1",
