@@ -376,4 +376,8 @@ var Produtos =
       }
     ]
   }
+
+  module.export = {
+    getPizzasSalgadasLista
+  }
   

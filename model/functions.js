@@ -6,6 +6,36 @@
  ***********************************************************/
 
 var produtos = require('./Produtos')
-const produtosJson = Produtos.Produtos
+const produtosJs = Produtos.Produtos
 
+const getPizzasSalgadasLista = function () {
 
+    let PizzasSalgadas = Produtos.Salgadas.slice();
+    PizzasSalgadas.push.apply(Produtos.Salgadas);
+    
+    
+    let SalgadasLista = [];
+    let status = false; 
+
+    for (let i  = 0; i < PizzasSalgadas.length; i++) {
+
+        let Salgada = PizzasSalgadas[i];
+        let InfosPizza = {
+            Nome: Salgadas.Nome,
+            Preço: Salgadas.Preço
+        };
+
+        let Resultados = {
+        Pizzas: PizzasSalgadas,
+        };
+
+        if (status) {
+            return Resultados;
+        } else {
+            return false; }
+    };
+}
+
+//Função sendo chamada
+
+getPizzasSalgadasLista();
